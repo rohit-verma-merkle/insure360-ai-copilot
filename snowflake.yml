@@ -1,0 +1,19 @@
+# created-by: streamlit-in-workspaces; skill-version=1.0.0
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    query_warehouse: COMPUTE_WH
+    compute_pool: SYSTEM_COMPUTE_POOL_CPU
+    main_file: streamlit_app.py
+    artifacts:
+      - pyproject.toml
+      - streamlit_app.py
+      - .streamlit/config.toml
+      - app_pages/executive_dashboard.py
+      - app_pages/customer_360.py
+      - app_pages/ai_insights.py
+      - app_pages/claims_intelligence.py
+      - app_pages/recommendations.py
+      - app_pages/integration_config.py
+      - app_pages/role_config.py
